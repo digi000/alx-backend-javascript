@@ -7,11 +7,11 @@ export default function handleResponseFromAPI(promise) {
       };
       return attr;
     })
-    .catch(() => {
+    .then(() => {
       const error = new Error();
       return error;
     })
-    .finally(() => {
+    .then(() => {
       console.log('Got a response from the API');
     });
 }
