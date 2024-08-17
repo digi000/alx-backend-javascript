@@ -1,5 +1,4 @@
-export default function getResponseFromAPI(){
-	let fp = Promise.resolve('hello world!');
-	return fp;
+export default function getResponseFromAPI() {
+  const fp = Promise.resolve('hello world!');
+  return fp;
 }
-
