@@ -8,7 +8,7 @@ export default function handleResponseFromAPI(promise) {
       return attr;
     })
     .catch(() => {
-      const error = new Error('');
+      const error = new Error();
       return error;
     })
     .finally(() => {
