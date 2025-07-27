@@ -1,0 +1,4 @@
+rm mn.js
+touch mn.js
+chmod +x mn.js
+vim mn.js
